@@ -85,29 +85,4 @@ public class 테트로미스_14500 {
 			}
 		}
 	}
-
-	/*
-	 * inner class i : i좌표 , j : j좌표, val : (i,j)칸에 쓰인 수
-	 */
-	static class Cell implements Comparable<Cell> {
-		int i, j;
-		int val;
-
-		Cell(int i, int j, int val) {
-			this.i = i;
-			this.j = j;
-			this.val = val;
-		}
-
-		@Override
-		public int compareTo(Cell target) {
-			return target.val - this.val; // 오름차순
-		}
-
-		@Override
-		public String toString() {
-			return "i : " + i + " / j :  " + j + " / val : " + val;
-		}
-
-	}
 }
