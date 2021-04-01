@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
 
-public class Solution_1260 {
+public class Main_1260 {
 	static int N; //정점개수
 	static int M; //간선개수
 	static int V; //시작점
