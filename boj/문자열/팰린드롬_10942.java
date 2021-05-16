@@ -18,7 +18,7 @@ public class 팰린드롬_10942 {
 		
 		//질문에 대한 답을 처리하기 전에, 각 자리에서 팰린드롬인 경우를 찾는다.
 		
-		//팰린드롬의 여부 저장 테이블 boolean[i][j] = i는 위치이며, j는 end 이다.
+		//팰린드롬의 여부 저장 테이블 boolean[i][j] = i는 개수이며, j는 시작위치 이다.
 		boolean[][] isPalindrome = new boolean[num.length+1][num.length];
 		
 		for(int i = 1 ; i < isPalindrome.length;i++) {
